@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon --exitcrash --watch .restart-trigger index.js",
     "dev": "nodemon index.js",
-    "lint": "cd mahjong && eslint ."
+    "lint": "eslint ."
   },
   "engines": {
     "node": ">=9.0.0"
@@ -23,25 +23,10 @@
   },
   "homepage": "https://github.com/tsg-ut/slackbot#readme",
   "dependencies": {
-    "@hakatashi/riichi-core": "^1.0.3",
     "@slack/client": "^3.14.0",
-    "axios": "^0.16.2",
     "common-tags": "^1.4.0",
-    "concat-stream": "^1.6.1",
-    "cubejs": "^1.0.3",
-    "dockerode": "^2.5.2",
     "dotenv": "^4.0.0",
-    "form-data": "^2.3.2",
-    "jsdom": "^11.6.1",
-    "lodash": "^4.17.4",
-    "node-emoji": "^1.8.1",
-    "nodemon": "^1.12.1",
-    "request": "^2.83.0",
-    "sharp": "^0.19.1",
-    "shogi9.js": "^1.0.2",
-    "shuffle-array": "^1.0.1",
-    "sqlite": "^2.9.1",
-    "tmp": "0.0.33"
+    "lodash": "^4.17.4"
   },
   "devDependencies": {
     "@hakatashi/eslint-config": "^1.1.1",
